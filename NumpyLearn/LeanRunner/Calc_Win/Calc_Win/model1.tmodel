@@ -1,0 +1,175 @@
+{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "description": "",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "ApplicationFrameWindow"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "ApplicationFrameWindow",
+        "title": "Calculator",
+        "boundingRectangle": "212,70,420,674"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "Window1",
+          "description": "",
+          "identifyProperties": {
+            "type": "Window",
+            "className": "Windows.UI.Core.CoreWindow"
+          },
+          "cachedProperties": {
+            "type": "Window",
+            "className": "Windows.UI.Core.CoreWindow",
+            "title": "Calculator",
+            "boundingRectangle": "221,70,402,665"
+          },
+          "children": [
+            {
+              "ntype": "uia",
+              "nname": "Number pad",
+              "description": "",
+              "identifyProperties": {
+                "type": "Group",
+                "automationId": "NumberPad"
+              },
+              "cachedProperties": {
+                "automationId": "NumberPad",
+                "type": "Group",
+                "className": "NamedContainerAutomationPeer",
+                "name": "Number pad",
+                "boundingRectangle": "226,461,293,268"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Four",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num4Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num4Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Four",
+                    "boundingRectangle": "226,529,96,65"
+                  },
+                  "image": {
+                    "imgPath": "Four.png",
+                    "rect": "10,10,96,65"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Five",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "num5Button"
+                  },
+                  "cachedProperties": {
+                    "automationId": "num5Button",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Five",
+                    "boundingRectangle": "325,529,96,65"
+                  },
+                  "image": {
+                    "imgPath": "Five.png",
+                    "rect": "10,10,96,65"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Standard operators",
+              "description": "",
+              "identifyProperties": {
+                "type": "Group",
+                "automationId": "StandardOperators"
+              },
+              "cachedProperties": {
+                "automationId": "StandardOperators",
+                "type": "Group",
+                "className": "NamedContainerAutomationPeer",
+                "name": "Standard operators",
+                "boundingRectangle": "522,393,96,335"
+              },
+              "children": [
+                {
+                  "ntype": "uia",
+                  "nname": "Equals",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "equalButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "equalButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Equals",
+                    "boundingRectangle": "522,664,96,65"
+                  },
+                  "image": {
+                    "imgPath": "Equals.png",
+                    "rect": "10,10,96,65"
+                  }
+                },
+                {
+                  "ntype": "uia",
+                  "nname": "Plus",
+                  "description": "",
+                  "identifyProperties": {
+                    "type": "Button",
+                    "automationId": "plusButton"
+                  },
+                  "cachedProperties": {
+                    "automationId": "plusButton",
+                    "type": "Button",
+                    "className": "Button",
+                    "name": "Plus",
+                    "boundingRectangle": "522,596,96,65"
+                  },
+                  "image": {
+                    "imgPath": "Plus.png",
+                    "rect": "10,10,96,65"
+                  }
+                }
+              ]
+            },
+            {
+              "ntype": "uia",
+              "nname": "Text",
+              "description": "",
+              "identifyProperties": {
+                "type": "Text",
+                "automationId": "CalculatorResults"
+              },
+              "cachedProperties": {
+                "automationId": "CalculatorResults",
+                "type": "Text",
+                "name": "Display is 0",
+                "boundingRectangle": "221,187,402,96"
+              },
+              "image": {
+                "imgPath": "Display is 0.png",
+                "rect": "10,10,402,96"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
