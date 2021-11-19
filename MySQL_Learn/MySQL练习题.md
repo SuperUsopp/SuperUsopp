@@ -157,4 +157,3 @@ CREATE TABLE `score` (sid int,
 
 41、删除“002”同学的“001”课程的成绩；
 
-42、TT
